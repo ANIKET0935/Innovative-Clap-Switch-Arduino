@@ -1,0 +1,261 @@
+# MINI PROJECT REPORT
+
+## ON
+
+**“Innovative Clap Switch: Integrating IR Detection with Arduino”**
+
+---
+
+### Submitted To
+
+**Shivaji University, Kolhapur**
+In partial fulfillment of the requirements for the award of the degree
+**Bachelor of Technology in Computer Science & Engineering (AIML)**
+
+---
+
+### Submitted By
+
+* Mr. Aniket Mohan Kamble — 22UAI046
+* Mr. Om Lahu Kamble — 22UAI047
+* Mr. Rounak Rafik Harugire — 22UAI034
+* Mr. Karan Prashant Ghatage — 22UAI029
+
+---
+
+### Under the Guidance of
+
+**Dr. S. S. More**
+
+---
+
+### Department of Computer Science & Engineering (AIML)
+
+**D.K.T.E. Society’s Textile and Engineering Institute, Ichalkaranji**
+*(An Autonomous Institute)*
+Academic Year: **2024–2025**
+
+---
+
+## Certificate
+
+This is to certify that the project work entitled:
+
+**“Innovative Clap Switch: Integrating IR Detection with Arduino”**
+
+is a bona fide record of project work carried out by:
+
+* Mr. Aniket Mohan Kamble — 22UAI046
+* Mr. Om Lahu Kamble — 22UAI047
+* Mr. Rounak Rafik Harugire — 22UAI034
+* Mr. Karan Prashant Ghatage — 22UAI029
+
+in partial fulfillment for the award of **Bachelor of Technology in Computer Science & Engineering (AIML)** prescribed by **Shivaji University, Kolhapur** for the academic year 2024–2025.
+
+**Project Guide:**
+Dr. S. S. More
+
+**Head of Department:**
+Prof. Dr. S. K. Shirgave
+
+**Director:**
+Prof. Dr. L. S. Admuthe
+
+---
+
+## Declaration
+
+We hereby declare that the project report entitled **“Innovative Clap Switch: Integrating IR Detection with Arduino”** is the outcome of our own work carried out at **D.K.T.E. Society’s Textile and Engineering Institute, Ichalkaranji**.
+The material in this report has not been submitted elsewhere for the award of any degree. We affirm that no copyright or IPR violations have been made in this work.
+
+**Signed by:**
+
+* Mr. Aniket Mohan Kamble — 22UAI046
+* Mr. Om Lahu Kamble — 22UAI047
+* Mr. Rounak Rafik Harugire — 22UAI034
+* Mr. Karan Prashant Ghatage — 22UAI029
+
+---
+
+## Acknowledgement
+
+We express our sincere gratitude to **Dr. S. S. More**, our project guide, for his valuable guidance, support, and encouragement throughout the course of this project.
+
+We also extend our heartfelt thanks to **Prof. Dr. S. K. Shirgave**, Head of Department, and to all the faculty members of the **Computer Science & Engineering (AIML)** department for their cooperation and help.
+
+Finally, we thank our colleagues and families for their constant support and motivation.
+
+---
+
+## Index
+
+1. Abstract
+2. Problem Statement
+3. Problem Description
+4. Introduction
+5. Implementation
+6. Requirement Analysis
+
+   * Functional Requirements
+   * Non-Functional Requirements
+   * Hardware Requirements
+   * Software Requirements
+   * User Requirements
+7. System Design
+
+   * Circuit Diagram
+   * Block Diagram
+   * Use Case Diagram
+   * Data Flow Diagram
+8. Applications
+9. Future Scope
+10. Conclusion
+11. References
+
+---
+
+## Abstract
+
+The project **“Innovative Clap Switch: Integrating IR Detection with Arduino”** aims to design and develop a **smart clap switch** that uses both **sound recognition** and **infrared detection** to overcome the limitations of traditional clap switches.
+
+Conventional clap switches are prone to false triggers from ambient noise. This project enhances reliability by combining **Arduino-based sound detection** with **IR sensing** to verify user presence, reducing false activations.
+
+The system provides hands-free, efficient control of appliances such as lights or fans, making it suitable for **home automation, energy saving, and security applications**.
+
+---
+
+## Problem Statement
+
+Traditional clap switches are unreliable in noisy environments, lack user presence detection, and provide only basic on/off control.
+This project integrates **IR detection with sound sensing** to achieve higher accuracy, reliability, and functionality.
+
+---
+
+## Problem Description
+
+* **False Triggering:** Conventional clap switches are activated by background noise.
+* **No Presence Detection:** They respond even when no one is nearby.
+* **Limited Functionality:** Only simple on/off toggling.
+* **No Authentication:** Anyone can trigger the switch.
+
+Our solution addresses these limitations using an **Arduino microcontroller** that processes inputs from both **sound and IR sensors**, activating devices only under valid conditions.
+
+---
+
+## Introduction
+
+Clap switches are a popular form of home automation. However, they often fail in real environments due to noise interference and lack of user presence detection.
+
+The **Innovative Clap Switch** project integrates **sound detection** and **IR sensing** using Arduino. This hybrid approach ensures that appliances are activated only when both a clap is detected and a user is present, improving accuracy and usability.
+
+**Key Features:**
+
+* Reduces false triggers.
+* Provides user presence awareness.
+* Enables safer, smarter automation.
+
+---
+
+## Implementation
+
+**Components Used:**
+
+* Arduino Uno
+* Microphone Module (KY-037)
+* IR Sensor (HC-SR501) or Ultrasonic Sensor (HC-SR04)
+* Relay Module (5V)
+* LED with Resistor (220Ω)
+* Breadboard & Jumper Wires
+* Power Supply
+
+**Steps:**
+
+1. Design and assemble the circuit with Arduino, sensors, and relay.
+2. Upload the Arduino program using Arduino IDE.
+3. Test clap detection and adjust sensitivity.
+4. Integrate IR sensor for presence detection.
+5. Validate functionality with appliances.
+
+---
+
+## Requirement Analysis
+
+### Functional Requirements
+
+* Detect claps using a microphone.
+* Verify user presence with an IR sensor.
+* Toggle appliance state using a relay.
+* Provide LED feedback.
+
+### Non-Functional Requirements
+
+* Fast response (<1 second).
+* High reliability, minimal false triggers.
+* Easy installation and usability.
+
+### Hardware Requirements
+
+* Arduino Uno board
+* Sound sensor (KY-037)
+* IR/Ultrasonic sensor
+* Relay module
+* Power supply
+
+### Software Requirements
+
+* Arduino IDE
+* Standard Arduino libraries
+
+### User Requirements
+
+* Simple and hands-free operation.
+* Adjustable sensitivity.
+* Clear installation instructions.
+
+---
+
+## System Design
+
+1. **Circuit Diagram** – Shows Arduino connected with microphone, IR sensor, relay, and LED.
+2. **Block Diagram** – Explains the flow from sound & IR detection → Arduino processing → relay → appliance.
+3. **Use Case Diagram** – User interaction (clap + presence) leading to appliance control.
+4. **Data Flow Diagram (DFD)** – Illustrates system logic and flow of inputs/outputs.
+
+---
+
+## Applications
+
+* **Home Automation:** Lights, fans, AC units.
+* **Energy Saving Systems:** Appliances turn on only when needed.
+* **Security Systems:** Presence detection combined with clap activation.
+* **Assistive Technology:** Hands-free control for elderly and disabled individuals.
+
+---
+
+## Future Scope
+
+* Integration with IoT platforms (Alexa, Google Home).
+* Machine learning for adaptive clap recognition.
+* Gesture-based control with advanced sensors.
+* Biometric authentication for security applications.
+
+---
+
+## Conclusion
+
+The **Innovative Clap Switch** successfully combines **sound detection** and **IR sensing** with Arduino to create a reliable automation system.
+
+This design minimizes false triggers, improves usability, and demonstrates how simple sensors and microcontrollers can enhance smart home technology.
+
+The project provides a strong foundation for future enhancements such as **IoT integration, gesture recognition, and AI-based adaptability**.
+
+---
+
+## References
+
+1. Arduino Official Documentation – [https://www.arduino.cc](https://www.arduino.cc)
+2. Sensor Module Datasheets (KY-037 Microphone, HC-SR501 IR, HC-SR04 Ultrasonic)
+3. D.K.T.E. Society’s Course Material for B.Tech (CSE AIML)
+4. GitHub – Open-source Arduino projects for home automation
+
+---
